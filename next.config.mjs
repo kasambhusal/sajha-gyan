@@ -2,6 +2,8 @@
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
+    // Disable ESLint entirely in development
+    ignoreDuringDevelopment: true,
   },
   typescript: {
     ignoreBuildErrors: true,

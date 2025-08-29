@@ -18,10 +18,6 @@ export default function DashboardPage() {
   const [testHistory, setTestHistory] = useState(null)
 
   useEffect(() => {
-    if (!isLoading && !user) {
-      router.push("/")
-      return
-    }
 
     if (user) {
       const userProgress = getFromStorage(STORAGE_KEYS.USER_PROGRESS)

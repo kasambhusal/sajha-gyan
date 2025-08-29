@@ -19,7 +19,7 @@ export default function HomePage() {
     if (existingProfile) {
       router.push("/dashboard")
     }
-  }, [router])
+  }, [])
 
   const handleLogin = async (e) => {
     e.preventDefault()
