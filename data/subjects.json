@@ -1,0 +1,375 @@
+[
+  {
+    "subjectId": "mathematics",
+    "title": "Mathematics",
+    "icon": "📊",
+    "color": "bg-blue-500",
+    "subtopics": [
+      {
+        "subtopicId": "algebra",
+        "title": "Algebra",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "math-alg-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "Solve for x: 2x + 5 = 13",
+            "options": ["x = 3", "x = 4", "x = 5", "x = 6"],
+            "correctAnswer": 1,
+            "explanation": "2x + 5 = 13, so 2x = 8, therefore x = 4"
+          },
+          {
+            "id": "math-alg-002",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the value of 3x - 7 when x = 5?",
+            "options": ["8", "15", "22", "8"],
+            "correctAnswer": 0,
+            "explanation": "3(5) - 7 = 15 - 7 = 8"
+          },
+          {
+            "id": "math-alg-003",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "Factor: x² - 9",
+            "options": ["(x-3)(x-3)", "(x+3)(x-3)", "(x+9)(x-1)", "Cannot be factored"],
+            "correctAnswer": 1,
+            "explanation": "x² - 9 is a difference of squares: (x+3)(x-3)"
+          },
+          {
+            "id": "math-alg-004",
+            "type": "written",
+            "difficulty": "medium",
+            "question": "Explain the difference between linear and quadratic equations with examples.",
+            "answerGuide": "Linear equations have degree 1 (like 2x + 3 = 7) and graph as straight lines. Quadratic equations have degree 2 (like x² + 2x - 3 = 0) and graph as parabolas.",
+            "keywords": ["degree", "linear", "quadratic", "parabola", "straight line"]
+          },
+          {
+            "id": "math-alg-005",
+            "type": "mcq",
+            "difficulty": "hard",
+            "question": "Solve the system: 2x + 3y = 12, x - y = 1",
+            "options": ["x=3, y=2", "x=2, y=3", "x=4, y=1", "x=1, y=4"],
+            "correctAnswer": 0,
+            "explanation": "From x - y = 1, we get x = y + 1. Substituting: 2(y+1) + 3y = 12, so 5y = 10, y = 2, x = 3"
+          }
+        ]
+      },
+      {
+        "subtopicId": "geometry",
+        "title": "Geometry",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "math-geo-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the area of a rectangle with length 8 and width 5?",
+            "options": ["13", "26", "40", "80"],
+            "correctAnswer": 2,
+            "explanation": "Area = length × width = 8 × 5 = 40"
+          },
+          {
+            "id": "math-geo-002",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "How many sides does a hexagon have?",
+            "options": ["5", "6", "7", "8"],
+            "correctAnswer": 1,
+            "explanation": "A hexagon has 6 sides by definition"
+          },
+          {
+            "id": "math-geo-003",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the circumference of a circle with radius 7? (Use π ≈ 3.14)",
+            "options": ["21.98", "43.96", "153.86", "307.72"],
+            "correctAnswer": 1,
+            "explanation": "Circumference = 2πr = 2 × 3.14 × 7 = 43.96"
+          },
+          {
+            "id": "math-geo-004",
+            "type": "written",
+            "difficulty": "medium",
+            "question": "Explain the Pythagorean theorem and provide an example.",
+            "answerGuide": "The Pythagorean theorem states that in a right triangle, a² + b² = c², where c is the hypotenuse. Example: In a triangle with legs 3 and 4, the hypotenuse is √(3² + 4²) = √25 = 5.",
+            "keywords": ["right triangle", "hypotenuse", "a² + b² = c²", "example"]
+          },
+          {
+            "id": "math-geo-005",
+            "type": "mcq",
+            "difficulty": "hard",
+            "question": "What is the volume of a sphere with radius 3? (Use π ≈ 3.14)",
+            "options": ["113.04", "226.08", "339.12", "452.16"],
+            "correctAnswer": 0,
+            "explanation": "Volume = (4/3)πr³ = (4/3) × 3.14 × 27 = 113.04"
+          }
+        ]
+      },
+      {
+        "subtopicId": "calculus",
+        "title": "Calculus",
+        "difficulty": "hard",
+        "questions": [
+          {
+            "id": "math-cal-001",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the derivative of x²?",
+            "options": ["x", "2x", "x²", "2x²"],
+            "correctAnswer": 1,
+            "explanation": "Using the power rule: d/dx(x²) = 2x¹ = 2x"
+          },
+          {
+            "id": "math-cal-002",
+            "type": "mcq",
+            "difficulty": "hard",
+            "question": "What is ∫x dx?",
+            "options": ["x²/2 + C", "x + C", "2x + C", "x²"],
+            "correctAnswer": 0,
+            "explanation": "The antiderivative of x is x²/2 + C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subjectId": "physics",
+    "title": "Physics",
+    "icon": "⚛️",
+    "color": "bg-purple-500",
+    "subtopics": [
+      {
+        "subtopicId": "mechanics",
+        "title": "Mechanics",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "phy-mec-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the SI unit of force?",
+            "options": ["Joule", "Newton", "Watt", "Pascal"],
+            "correctAnswer": 1,
+            "explanation": "The SI unit of force is Newton (N)"
+          },
+          {
+            "id": "phy-mec-002",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "If an object falls freely, what is its acceleration? (g = 9.8 m/s²)",
+            "options": ["0 m/s²", "9.8 m/s²", "19.6 m/s²", "4.9 m/s²"],
+            "correctAnswer": 1,
+            "explanation": "Objects in free fall accelerate at g = 9.8 m/s² downward"
+          },
+          {
+            "id": "phy-mec-003",
+            "type": "written",
+            "difficulty": "medium",
+            "question": "Explain Newton's first law of motion with an example.",
+            "answerGuide": "Newton's first law states that an object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an external force. Example: A book on a table remains at rest until pushed.",
+            "keywords": ["inertia", "rest", "motion", "external force", "example"]
+          }
+        ]
+      },
+      {
+        "subtopicId": "thermodynamics",
+        "title": "Thermodynamics",
+        "difficulty": "hard",
+        "questions": [
+          {
+            "id": "phy-thm-001",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the first law of thermodynamics?",
+            "options": [
+              "Energy cannot be created or destroyed",
+              "Entropy always increases",
+              "Heat flows from hot to cold",
+              "PV = nRT"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The first law states that energy cannot be created or destroyed, only transformed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subjectId": "chemistry",
+    "title": "Chemistry",
+    "icon": "🧪",
+    "color": "bg-green-500",
+    "subtopics": [
+      {
+        "subtopicId": "organic",
+        "title": "Organic Chemistry",
+        "difficulty": "hard",
+        "questions": [
+          {
+            "id": "chem-org-001",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What is the molecular formula of methane?",
+            "options": ["CH₄", "C₂H₆", "C₃H₈", "C₄H₁₀"],
+            "correctAnswer": 0,
+            "explanation": "Methane is the simplest hydrocarbon with formula CH₄"
+          },
+          {
+            "id": "chem-org-002",
+            "type": "written",
+            "difficulty": "hard",
+            "question": "Explain the difference between alkanes, alkenes, and alkynes.",
+            "answerGuide": "Alkanes have single bonds (CnH2n+2), alkenes have double bonds (CnH2n), and alkynes have triple bonds (CnH2n-2). Examples: methane (alkane), ethene (alkene), ethyne (alkyne).",
+            "keywords": ["single bond", "double bond", "triple bond", "saturated", "unsaturated"]
+          }
+        ]
+      },
+      {
+        "subtopicId": "inorganic",
+        "title": "Inorganic Chemistry",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "chem-ino-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Go", "Gd", "Au", "Ag"],
+            "correctAnswer": 2,
+            "explanation": "Gold's chemical symbol is Au, from the Latin 'aurum'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subjectId": "biology",
+    "title": "Biology",
+    "icon": "🧬",
+    "color": "bg-emerald-500",
+    "subtopics": [
+      {
+        "subtopicId": "cell-biology",
+        "title": "Cell Biology",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "bio-cel-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "What is the powerhouse of the cell?",
+            "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+            "correctAnswer": 1,
+            "explanation": "Mitochondria produce ATP, the cell's energy currency"
+          },
+          {
+            "id": "bio-cel-002",
+            "type": "written",
+            "difficulty": "medium",
+            "question": "Describe the process of photosynthesis.",
+            "answerGuide": "Photosynthesis is the process where plants convert light energy, carbon dioxide, and water into glucose and oxygen. The equation is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂.",
+            "keywords": ["light energy", "carbon dioxide", "water", "glucose", "oxygen", "chloroplasts"]
+          }
+        ]
+      },
+      {
+        "subtopicId": "genetics",
+        "title": "Genetics",
+        "difficulty": "hard",
+        "questions": [
+          {
+            "id": "bio-gen-001",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "What does DNA stand for?",
+            "options": ["Deoxyribonucleic Acid", "Dinitrogen Acid", "Dynamic Nuclear Acid", "Dextrose Nucleic Acid"],
+            "correctAnswer": 0,
+            "explanation": "DNA stands for Deoxyribonucleic Acid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subjectId": "english",
+    "title": "English",
+    "icon": "📚",
+    "color": "bg-indigo-500",
+    "subtopics": [
+      {
+        "subtopicId": "grammar",
+        "title": "Grammar",
+        "difficulty": "easy",
+        "questions": [
+          {
+            "id": "eng-gra-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "Which is the correct plural of 'child'?",
+            "options": ["childs", "children", "childes", "child's"],
+            "correctAnswer": 1,
+            "explanation": "The plural of 'child' is 'children' (irregular plural)"
+          },
+          {
+            "id": "eng-gra-002",
+            "type": "written",
+            "difficulty": "medium",
+            "question": "Explain the difference between 'affect' and 'effect' with examples.",
+            "answerGuide": "'Affect' is usually a verb meaning to influence (The rain will affect our plans). 'Effect' is usually a noun meaning a result (The effect of rain was a cancelled picnic).",
+            "keywords": ["verb", "noun", "influence", "result", "examples"]
+          }
+        ]
+      },
+      {
+        "subtopicId": "literature",
+        "title": "Literature",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "eng-lit-001",
+            "type": "mcq",
+            "difficulty": "medium",
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+            "correctAnswer": 1,
+            "explanation": "William Shakespeare wrote the famous tragedy 'Romeo and Juliet'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subjectId": "history",
+    "title": "History",
+    "icon": "🏛️",
+    "color": "bg-amber-500",
+    "subtopics": [
+      {
+        "subtopicId": "world-history",
+        "title": "World History",
+        "difficulty": "medium",
+        "questions": [
+          {
+            "id": "his-wor-001",
+            "type": "mcq",
+            "difficulty": "easy",
+            "question": "In which year did World War II end?",
+            "options": ["1944", "1945", "1946", "1947"],
+            "correctAnswer": 1,
+            "explanation": "World War II ended in 1945"
+          },
+          {
+            "id": "his-wor-002",
+            "type": "written",
+            "difficulty": "hard",
+            "question": "Discuss the causes and effects of the Industrial Revolution.",
+            "answerGuide": "The Industrial Revolution was caused by factors like technological innovations, availability of capital, and natural resources. Effects included urbanization, improved living standards, environmental changes, and social class changes.",
+            "keywords": ["technology", "capital", "urbanization", "living standards", "social changes"]
+          }
+        ]
+      }
+    ]
+  }
+]
